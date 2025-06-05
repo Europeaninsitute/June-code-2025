@@ -1,0 +1,47 @@
+.ani{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+@keyframes box{
+    0%{
+        background-color: aqua;
+        left: 0px;
+        top: 0px;
+
+    }
+    25%{
+        background-color: crimson;
+        left: 400px;
+        top: 0px;
+    }
+    50%{
+        background-color: chartreuse;
+        left: 400px;
+        top: 400px;
+    }
+    75%{
+        background-color: darkorchid;
+        left: 0px;
+        top: 400px;
+    }
+    100%{
+        background-color: darkorange;
+        left: 0px;
+        top: 0px;
+    }
+    /* from{
+        background-color: blue;
+    }
+    to{
+        background-color: chartreuse;
+    } */
+}

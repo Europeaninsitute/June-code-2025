@@ -1,0 +1,47 @@
+.edu-qld-hand-uniquifier , body {
+    font-family: "Edu QLD Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation: mov 22s 2s infinite;
+}
+
+@keyframes mov {
+    0% {}
+
+    25% {
+        background-color: aqua;
+        left: 500px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: rgb(102, 255, 0);
+        left: 500px;
+        top: 500px;
+        rotate: 45deg;
+    }
+
+    75% {
+        background-color: rgb(255, 0, 0);
+        left: 0px;
+        top: 500px;
+    }
+
+    75% {
+        background-color: rgb(255, 0, 0);
+        left: 0px;
+        top: 0px;
+        border-radius: 100% 100%;
+    }
+
+}
