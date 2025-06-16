@@ -1,0 +1,9 @@
+.divs {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    background-image: url(https://scontent.fkhi28-1.fna.fbcdn.net/v/t39.30808-6/501197040_122245297850192948_610033424836473355_n.jpg?stp=c0.190.768.768a_dst-jpg_s565x565_tt6&_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEvZosCE874G9WSkMzwwJrJFrJSYBm8S38WslJgGbxLf5CMSifqbh9WrDaLhrPHtF_CkStYlVpSx27AIqivtXXp&_nc_ohc=gqvmwmIMHxYQ7kNvwE3oN7s&_nc_oc=Adm_2kw0s-66dY8Yr5idopM9Zpk12lbeQH1tE90HQFqsz2ak6TQPkdeXB2Ym1YlpMho&_nc_zt=23&_nc_ht=scontent.fkhi28-1.fna&_nc_gid=AO58s9pGz1eJJ9ipeaLoQA&oh=00_AfOzLQgiWoZxLazLXJ2Nxd4idaY-kkEFXw2OBBag2C7vEQ&oe=6850B095);
+    background-size: 40% 40%;
+    
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}

@@ -1,0 +1,35 @@
+/* .fir {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 100% 100%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 2px 5px 40px 10px blue;
+}
+.sec {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100% 100%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-image: url(https://media.istockphoto.com/id/1413766112/photo/successful-mature-businessman-looking-at-camera-with-confidence.jpg?s=612x612&w=0&k=20&c=NJSugBzNuZqb7DJ8ZgLfYKb3qPr2EJMvKZ21Sj5Sfq4=);
+    background-size: 100% 100%;
+}
+.det {
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+} */
+
+
+.gray {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    background: linear-gradient(145deg, red, pink, black);
+}

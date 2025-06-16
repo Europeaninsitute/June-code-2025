@@ -1,4 +1,4 @@
-.ani{
+/* .ani{
     width: 200px;
     height: 200px;
     background-color: black;
@@ -44,4 +44,13 @@
     to{
         background-color: chartreuse;
     } */
-}
+
+    .a{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        position: absolute;
+        left: 200px;
+        top: 300px;
+        border-radius: 100%;
+    }

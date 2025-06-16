@@ -1,47 +1,134 @@
+ /*.main {
+     width: 200px;
+     height: 200px;
+     background-color: black;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     animation: mov 22s 2s infinite;
+ }
+ @keyframes mov {
+     0% {}
+
+     25% {
+         background-color: aqua;
+         left: 500px;
+         top: 0px;
+     }
+
+     50% {
+         background-color: rgb(102, 255, 0);
+         left: 500px;
+         top: 500px;
+         rotate: 45deg;
+     }
+
+     75% {
+         background-color: rgb(255, 0, 0);
+         left: 0px;
+         top: 500px;
+     }
+
+     100% {
+         background-color: rgb(255, 217, 0);
+         left: 0px;
+         top: 0px;
+         border-radius: 100% 100%;
+     }
+
+ }
 .edu-qld-hand-uniquifier , body {
     font-family: "Edu QLD Hand", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
-
-.box {
-    width: 200px;
-    height: 200px;
+.main>div {
+    width: 100px;
+    height: 500px;
     background-color: black;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    animation: mov 22s 2s infinite;
+    border-radius: 20px;
+    background-size: 100% 100%;
+    transition: all 2s 1s;
 }
 
-@keyframes mov {
-    0% {}
-
-    25% {
-        background-color: aqua;
-        left: 500px;
-        top: 0px;
-    }
-
-    50% {
-        background-color: rgb(102, 255, 0);
-        left: 500px;
-        top: 500px;
-        rotate: 45deg;
-    }
-
-    75% {
-        background-color: rgb(255, 0, 0);
-        left: 0px;
-        top: 500px;
-    }
-
-    75% {
-        background-color: rgb(255, 0, 0);
-        left: 0px;
-        top: 0px;
-        border-radius: 100% 100%;
-    }
-
+.main{
+    display: flex;
+    gap: 5px;
 }
+
+.a1{
+    background-image: url(https://images.wallpapersden.com/image/download/colorful-mountain-8k-night-photography_bmZrameUmZqaraWkpJRsa21lrWloZ2U.jpg);
+}
+.a2{
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEiKiBXKhH2NTHi0_jamWDbYwQflElO8V2T2z-x7dIUw7-fA1d8wPGdH3yogWuEn18PgIKMbqsjIq1EzV1IielulxEQSKp3p8SVC1LIMPNyBj9KbgO6RkrfBlfSy8kFYt2zAvm3X6IOLuiInYqFNqhvl2N6ZPFQCSwsyOmd-EbFmOLU7lSKaKuf1bJrM-g=s1600);
+}
+.a3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjPBsxuf1CdPhLwyhexKlTbmGRasVBqeHh6pZ-hves1I5C_Ept8a2MEZJA6fg7oyB_qpE&usqp=CAU);
+}
+.a4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtLhSGCP6PdcK01giGBkBye7d2ulpt03cF4Iy0S-XTkZ2xWaH05XenAOpgN2ZXRuoBmAs&usqp=CAU);
+}
+.a5{
+    background-image: url(https://wallpapercave.com/wp/wp7532812.png);
+}
+.main>div:hover{
+    width: 100%;
+} 
+ .main-card {
+     width: 300px;
+     height: 500px;
+     background-color: aqua;
+     text-align: center;
+     margin-left: 50px;
+     border-radius: 20px;
+     padding: 4px;
+     transition: all 1s;
+ }
+
+ .img {
+     width: 290px;
+     height: 200px;
+     background-color: black;
+     border-radius: 20px;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7r16Tmj1jLDtNL0qspAnd6P_zvPQaq2JUqg&s);
+     transition: all 1s;
+     background-size: 100% 100%;
+ }
+
+
+ .img:hover {
+     background-image: url(https://i0.wp.com/baseuspakistan.pk/wp-content/uploads/2024/03/Baseus_AeQur_GH02_Gaming_Wireless_Headphone_8_700x1.png?fit=700%2C700&ssl=1);
+     transition: all 1s;
+     background-size: 100% 100%;
+ }*/
+
+
+
+
+
+ nav,
+ ul,
+ li,
+ a {
+     display: flex;
+     gap: 10px;
+     justify-content: space-evenly;
+     background-color: black;
+     color: #fff;
+     align-items: center;
+     box-sizing: border-box;
+     padding: 4px;
+ }
+
+ li>a {
+     color: #ffff;
+     text-decoration: none;
+     padding-top: 5px;
+ }
+
+ button {
+     width: 120px;
+     border: none;
+     border-radius: 10px;
+ }
